@@ -15,9 +15,25 @@
     align-items: center;
     justify-content: space-between;
  }
+ 
+ .logoContainer {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 10px;
+ }
+
+ .logoContainer h1 {
+   font-family: 'Fonte titulo';
+ }
+
+ .logoContainer img {
+   width: auto;
+   height: calc(var(--altura-header) - 1vh);
+ }
+ 
 
  .navigation a {
    text-decoration: none;
    color: var(--texto-principal);
  }
-
