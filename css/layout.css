@@ -1,6 +1,5 @@
  
 @import url('./variables.css'); 
-@import url('./variables.css');
  
 * {
     margin: 0;
@@ -122,6 +121,30 @@ body {
     text-align: center;
     font-size: 12px;
     line-height: 1.8;
+}
+ 
+@media (max-widht: 768px) {
+    html {
+        scroll-padding-top: 170px;
+    }
+
+    .header {
+       height: auto;
+       padding: 120px 20px;
+       flex-direction: column;
+       gap: 10px 20px 20px;
+    }
+     .footer {
+        padding: 40px 20px 20px;
+     }
+
+     .footerContainer {
+        flex-direction: column;
+     }
+
+     .footerColuna {
+        width: 100%;
+     }
 }
  
  
